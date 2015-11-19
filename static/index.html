@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self'; style-src 'self' 'unsafe-inline';">
+  <script>
+    var f = new FontFace("Octicons Regular", "url(octicons.woff)", {});
+    f.load().then(function(loadedFace) {
+      document.fonts.add(loadedFace);
+    });
+  </script>
   <script src="index.js"></script>
 </head>
 <body tabindex="-1">
