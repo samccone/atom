@@ -266,6 +266,11 @@ class Package
             deserializeFunction.apply(this, arguments)
     return
 
+  loadViewProviders: ->
+    for name, implementationPath of @metadata['atom-view-providers']
+      continue
+    return
+
   getStylesheetsPath: ->
     path.join(@path, 'styles')
 

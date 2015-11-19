@@ -1,0 +1,8 @@
+{
+  "name": "package-with-view-providers",
+  "version": "1.0.0",
+  "atom-view-providers": {
+    "ModelClass1": "./view-provider-1.js",
+    "ModelClass2": "./view-provider-2.js"
+  }
+}
